@@ -1,0 +1,274 @@
+.navbar-custom{
+    background: rgb(68, 86, 241) !important;
+}
+
+*{
+    user-select: none;
+}
+
+/* COL-SM-12 = FUNCIONARÁ EM DISPOSITIVOS ACIMA DE 576 PIXELS */
+
+/* COL-MD-12 = FUNCIONARÁ EM DISPOSITIVOS ACIMA DE 768 PIXELS  */
+
+/* COL-LG-12 = FUNCIONARÁ EM DISPOSITIVOS ACIMA DE 992 PIXELS */
+
+/* COL-XL-12 = FUNCIONARÁ EM DISPOSITIVOS ACIMA DE 1200 PIXELS */
+
+
+/* LOGO E MENU */
+
+    #icone{
+        color: white;
+    }
+
+    .box-fix{
+        position: relative;
+        top: 20px;
+    }
+
+    .navbar-toggler{
+        border: none;
+        font-size: 25px;
+    }
+
+    .margin-Left ul{
+        padding-left: 30px;
+    }
+
+/* LOGO E MENU */
+
+
+/* SEJA MUITO BEM VINDO E INSCREVA-SE */
+
+    .bg-top{
+        width: 100%;
+        min-height: 500px;
+        background-image: url('./IMAGEM/mosaico1.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlay{
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .fix-zindex{
+        z-index: 2;
+        color: white;
+    }
+
+    .padding30{
+        padding-right: 30px;
+    }
+
+    .text-bg{
+        color: white;
+        margin: 30px 0px;
+        position: relative; 
+        margin: 40px 0;
+    }
+
+    .centralizar{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (max-width:770px ){
+        .bg-top{
+            width: 100%;
+            min-height: 600px;
+        }
+
+        .espacamento{
+            margin: 20px 0;
+        }
+    }
+
+/* SEJA MUITO BEM VINDO E INSCREVA-SE */
+
+
+/* SOBRE E SETA PARA BAIXO */
+
+    .sobre{
+        width: 100%;
+        height: 100%;
+        background-color: #d8d9da;
+        position: relative;
+        padding: 30px 0px;
+        margin-bottom: 100px;
+    }
+
+    .chamada{
+        position: relative;
+        background-color: #3fa3c5;
+        padding: 8px 0;
+    }
+
+    .imagem{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .imagem img{
+        width: 50px;    
+        position: relative;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    .modal-body li{
+        list-style-type:decimal;
+    }
+
+    .custom-title{
+        margin:30px 0px;
+    }
+
+    .custom-title h2{
+        color:#555454;
+        font-size: 30px;
+        position: relative;
+        display: inline-block;
+        left: 50%;
+        transform: translatex(-50%);
+    }   
+
+
+    .custom-title p{
+        text-align: justify;
+
+    }
+
+    .custom-title div{
+        position: relative;
+        left: 0;
+        top:23px;
+        width:100%;
+        height: 3px;
+        background-color: #3fa3c5;
+    }
+
+    .saiba-mais{
+        position: relative;
+        text-align: center;
+    }
+
+/* SOBRE E SETA PARA BAIXO */
+
+
+/* NOSSOS DIFERENCIAIS */
+
+    .diferencial{
+        margin-bottom: 100px;
+    }
+
+    .coluna{
+        font-weight: lighter;
+    }
+
+    .coluna h2{
+        padding:10px 0;
+        border-bottom: 2px dotted black;
+    }
+
+    .coluna p{
+        text-align: center;
+    }
+
+    .icones{
+        color:#555454;
+    }
+
+    .icones p{
+        color:#808080;
+    }
+
+/* NOSSOS DIFERENCIAIS */
+
+
+/* PARTICIPE DA NOSSA LISTA */
+
+    .convite{
+        background-color: #d8d9da;
+        padding: 20px 0px;
+        margin-bottom: 100px;
+    }
+
+
+    .flex h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input{
+        display: flex;
+    }
+
+
+    .convite button{
+        background-color: #3fa3c5;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .paddingLeft div{
+        padding-right: 20px;
+    }
+
+    @media screen and (max-width: 770px){
+
+        .flex{
+            margin:10px 0;
+        }
+
+        .flex h2{
+            padding-bottom: 20px;
+        }
+
+        .paddingLeft div{
+            padding-right: 0px;
+        }
+    
+    }
+
+/* PARTICIPE DA NOSSA LISTA */
+
+
+/* FALE CONOSCO */
+
+    .faleConosco{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 50px 0px;
+    }
+
+/* FALE CONOSCO */
+
+
+/* RODAPÉ DO SITE */
+
+    .footer{
+        background-color: #d8d9da;
+    }
+
+/* RODAPÉ DO SITE */
